@@ -1,5 +1,6 @@
-import br.com.dio.desafio.dominio.Curso;
-import br.com.dio.desafio.dominio.Mentoria;
+import br.com.dio.desafio.dominio.Curso; // Todas as vezes que se instancia uma objeto ou todas as vezes que vai imprimir determinadas (cont, proxima linha)
+import br.com.dio.desafio.dominio.Mentoria;// característica de um objeto, no método main, se importa a classe para manipluar os objetos (cont, prox. linha)
+                                            // dessa classe.
 
 import java.time.LocalDate;
 
