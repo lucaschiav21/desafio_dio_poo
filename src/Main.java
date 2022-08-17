@@ -23,7 +23,7 @@ public class Main {
         Mentoria mentoria1 = new Mentoria(); // criando ou instanciando um objeto mentoria1 da classe Mentoria, onde há mentorias de estrutura (leia-se ações e características) parecidas.
         mentoria1.setTitulo("Segurança de Dados");
         mentoria1.setDescricao("Aprenda como elaborar sistemas de defesa com Python capazes de abater os mais variados tipos de ataques cibernéticos.");
-        mentoria1.setData(LocalDate.now());
+        mentoria1.setData(LocalDate.now()); // o LocalDate.now mostra a data e o horário em tempo real em que se faz determinada operação.
 
         System.out.println(mentoria1);
     }
