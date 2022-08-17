@@ -23,6 +23,8 @@ public class Main {
         mentoria1.setTitulo("Segurança de Dados");
         mentoria1.setDescricao("Aprenda como elaborar sistemas de defesa com Python capazes de abater os mais variados tipos de ataques cibernéticos.");
         mentoria1.setData(LocalDate.now());
+
+        System.out.println(mentoria1);
     }
 }
 
